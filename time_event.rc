@@ -1,0 +1,51 @@
+conky.config = {
+    alignment = 'top_left',
+    background = false,
+    border_width = 1,
+    cpu_avg_samples = 2,
+	default_color = 'white',
+    default_outline_color = 'white',
+    default_shade_color = 'white',
+    draw_borders = true,
+    draw_graph_borders = true,
+    draw_outline = false,
+    draw_shades = false,
+    use_xft = true,
+    font = 'DejaVu Sans Mono:size=12',
+    gap_x = 710,
+    gap_y = 71,
+    minimum_height = 5,
+	minimum_width = 500,
+    net_avg_samples = 2,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_stderr = false,
+    extra_newline = false,
+    own_window = true,
+    own_window_class = 'Conky',
+    own_window_transparent = true,	
+    own_window_type = 'override',
+    stippled_borders = 0,
+    update_interval = 1.0,
+    uppercase = false,
+    use_spacer = 'none',
+    show_graph_scale = false,
+    show_graph_range = false,
+    short_units = true,
+    double_buffer = true
+}
+
+conky.text = [[
+Time $hr
+
+${font DejaVu Sans Mono:size=36}${alignr}${time %l:%M %p}${font}
+${font DejaVu Sans Mono:size=12}${alignr}${time %A , %d %B}${font}
+
+Calendar $hr
+
+${exec cat ~/.conky/cal.txt}
+
+Events $hr
+
+${exec cat ~/.conky/events.txt}
+]]
