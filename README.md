@@ -1,20 +1,20 @@
-#Descrption:
+# Description:
 
 This project serves two goals:
 	* Provide a simple method to recreate this configuration on any new computer I use frequently.
 	* Share my dotfiles online.
 
-#Screenshots:
+# Screenshots:
 
 ![unix_basic](/screenshots/unix_basic.png)
 ![unix_cava](/screenshots/unix_cava.png)
-![unix_cava_full](/screenshots/unix_cava_full.png)
+![unix_cavafull](/screenshots/unix_cavafull.png)
 ![unix_neofetch](/screenshots/unix_neofetch.png)
 ![unix_vim](/screenshots/unix_vim.png)
 
-#Installation:
+# Installation:
 
-	##Dependencies:
+	## Dependencies:
 		I have used the following applications:
 			conky , cmus , python3 , git
 		Additionally ,
@@ -24,7 +24,7 @@ This project serves two goals:
 
 		Installing all dependencies is easy. They are commonly used packages and are in Ubuntu's repository as well.
 
-	##Procedure:
+	## Procedure:
 		Once, you installed the dependencies.
 		1) Go to your home directory by:
 			'cd ~'
@@ -36,7 +36,7 @@ This project serves two goals:
 		5) If the month is not December of 2017, run gen_cal.py as well:
 			'python3 ~/.conky/gen_cal.py'
 
-		###Optional:
+		### Optional:
 		A) wal:
 			1) Run wal as 
 				'wal -i -t ~/.conky/wallpaper.png'
