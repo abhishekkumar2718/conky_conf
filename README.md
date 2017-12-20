@@ -25,26 +25,26 @@ Additionally ,
 
 Installing all dependencies is easy. They are commonly used packages and are in Ubuntu's repository as well.
 
-##	 Procedure:
+## Procedure:
 Once, you installed the dependencies.
 1) Go to your home directory by:
-	'cd ~'
+	`cd ~`
 2) Clone this repository by:
-	'git clone https://github.com/abhishekkumar2718/conky_conf.git'
+	`git clone https://github.com/abhishekkumar2718/conky_conf.git`
 3) Check if there is a folder called ".conky" in your home directory. If there is , delete it.
 4) Run setup.sh as
-	'source ~/conky_conf/setup.sh'
+	`source ~/conky_conf/setup.sh`
 5) If the month is not December of 2017, run gen_cal.py as well:
-	'python3 ~/.conky/gen_cal.py'
+	`python3 ~/.conky/gen_cal.py`
 
-### 		Optional:
+### Optional:
 A) wal:
-	1) Run wal as 
-		'wal -i -t ~/.conky/wallpaper.png'
+	1) Run wal as: 
+		`wal -i -t ~/.conky/wallpaper.png`
 	2) To apply colorscheme to any new terminal you open, add the following line to your terminal resource file:
-		'(wal -r -t &)'
+		`(wal -r -t &)`
 	3) To make colorscheme persist over boots, add the following command to your startup file:
-		'wal -R'
+		`wal -R`
 
 B) cmus:
 	If you use any music player other than cmus, edit music_info.sh as per your requirement.
