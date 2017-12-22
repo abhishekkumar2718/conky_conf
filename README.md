@@ -1,5 +1,7 @@
 # Description:
 
+A beautiful but functional desktop configuration which also serves as 'agenda notebook'.
+
 This project serves two goals:
 	
 	* Provide a simple method to recreate this configuration on any new computer I use frequently.
@@ -73,3 +75,11 @@ B) cmus:
 
 C) Network Interface:
 	Change network interface names "enp4s8", "enp0s29f7u5" in info.rc as per your requirement.
+
+# Usage
+
+To run the configuration at any time:
+
+	`source ~/bin/conky_start`
+	
+To edit 'Todo list' and 'Events', fire up your favourite text editor and edit files '~/.conky/todo.txt' and '~/.conky/events.txt'
