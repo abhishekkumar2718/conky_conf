@@ -14,6 +14,7 @@ This project serves two goals:
 ![unix_cavafull](/screenshots/unix_cavafull.png)
 ![unix_neofetch](/screenshots/unix_neofetch.png)
 ![unix_vim](/screenshots/unix_vim.png)
+![wallpaper.png](wallpaper.png)
 
 # Installation:
 
@@ -82,4 +83,4 @@ To run the configuration at any time:
 
 	`source ~/bin/conky_start`
 	
-To edit 'Todo list' and 'Events', fire up your favourite text editor and edit files '~/.conky/todo.txt' and '~/.conky/events.txt'
+To edit 'Todo list' and 'Events', fire up your favourite text editor and edit files "\~/.conky/todo.txt" and "\~/.conky/events.txt"
